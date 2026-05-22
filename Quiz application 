@@ -1,0 +1,84 @@
+print("===== Simple Quiz Game =====")
+
+score = 0
+
+# Question 1
+print("\n1. Which language is used for Python programs?")
+print("A. Java")
+print("B. Python")
+print("C. C++")
+print("D. HTML")
+
+answer1 = input("Enter your answer: ")
+
+if answer1.upper() == "B":
+    print("Correct!")
+    score += 1
+else:
+    print("Wrong Answer!")
+
+# Question 2
+print("\n2. Which symbol is used to print output in Python?")
+print("A. print()")
+print("B. cout")
+print("C. echo")
+print("D. printf")
+
+answer2 = input("Enter your answer: ")
+
+if answer2.upper() == "A":
+    print("Correct!")
+    score += 1
+else:
+    print("Wrong Answer!")
+
+# Question 3
+print("\n3. Which data type stores text?")
+print("A. int")
+print("B. float")
+print("C. string")
+print("D. bool")
+
+answer3 = input("Enter your answer: ")
+
+if answer3.upper() == "C":
+    print("Correct!")
+    score += 1
+else:
+    print("Wrong Answer!")
+
+#Question 4 
+print("\n4. how do you start a comment in python?")    
+print("A. //")
+print("B. /*")
+print("C. #")
+print("D. !") 
+
+answer4 = input("Enter your answer: ")
+
+if answer4.upper() =="C":
+    print("Correct!")
+    score += 1
+else:
+    print("Wrong Answer!")
+
+#Question 5 
+print("\n5. what is the output of print( 3 *1**3)?")
+print("A. 27")
+print("B. 9")
+print("C. 3")
+print("D. 1")
+
+answer5 = input("Enter your answer: ")
+
+if answer5.upper() == "A":
+    print("Correct!")
+    score += 1
+else:
+    print("Wrong Answer!")
+
+
+# Final Score
+print("\n===== Quiz Finished =====")
+
+print("Your Score is:", score, "/ 5")
